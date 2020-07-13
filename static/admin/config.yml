@@ -1,7 +1,6 @@
 backend:
   name: github
-  repo: thomaswang/gatsby-personal-starter-blog
-
+  repo: metalandcoffee/the-metalhead-dev
 media_folder: content/assets
 public_folder: ../assets
 
