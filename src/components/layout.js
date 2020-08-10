@@ -22,13 +22,19 @@ class Layout extends React.Component {
         >
           <Link
             style={{
+              display: `block`,
+              display: `grid`,
+              gridTemplateColumns: `1fr 50px`,
+              gridGap: `10px`,
+              alignItems: `center`,
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
             }}
             to={location.pathname === blogPath ? `/blog/` : `/`}
           >
-            {title}
+            <img style={{ margin: 0 }} src="./metalhead-dev-text-logo.png" alt="The Metalhead Dev Text Logo" />
+            <img style={{ margin: 0 }} src="./metalhead-dev-skull-logo.png" alt="The Metalhead Dev Skull Logo" />
           </Link>
         </h1>
       )
@@ -36,7 +42,6 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -67,9 +72,9 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Site-in-progress by
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://twitter.com/metalandcoffee_">Metal & Coffee</a>
         </Footer>
       </Wrapper>
     )
@@ -77,12 +82,17 @@ class Layout extends React.Component {
 }
 
 const Wrapper = styled.div`
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #030303;
+  color: #E0A3C8;
   min-height: 100vh;
 `
 
 const Footer = styled.footer`
   text-align: center;
-  margin: 24px;
+  padding: 20px;
 `
 
 export default Layout

@@ -3,8 +3,8 @@ module.exports = {
     // edit below
     title: `The Metalhead Dev`,
     author: `Ebonie Butler`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `The Metalhead Dev. Coding, Metal and Coffee. 💀`,
+    siteUrl: `https://themetalheaddev.com/`,
     social: {
       twitter: `metalandcoffee_`,
     },
@@ -71,14 +71,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `The Metalhead Dev`,
+        short_name: `The Metalhead Dev`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/metalhead-dev-icon.png`,
       },
     },
     {
