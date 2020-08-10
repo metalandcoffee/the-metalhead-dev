@@ -103,7 +103,6 @@ class Layout extends React.Component {
 const Wrapper = styled.div`
   letter-spacing: 0.2px;
   font-weight: 600;
-  font-size: 20px;
   background-color: #030303;
   color: #E0A3C8;
   min-height: 100vh;

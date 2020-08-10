@@ -12,7 +12,6 @@ Wordpress2016.overrideThemeStyles = () => {
 delete Wordpress2016.googleFonts
 Wordpress2016.headerFontFamily = [`Raleway`, `sans-serif`]
 Wordpress2016.bodyFontFamily = [`Raleway`, `sans-serif`]
-//Wordpress2016.baseFontSize = `20px`
 const typography = new Typography(Wordpress2016)
 
 // Hot reload typography in development.

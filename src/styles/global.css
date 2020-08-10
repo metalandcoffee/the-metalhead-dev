@@ -1,0 +1,11 @@
+/* Anchors */
+a {
+    color: #5CBEFF;
+}
+
+@media ( min-width: 600px ) {
+    html {
+        /* Set Base Font to 18px */
+        font: 112.5%/1.75 'Raleway',sans-serif;
+    }
+  }
