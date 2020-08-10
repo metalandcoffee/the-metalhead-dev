@@ -1,6 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import styled from "styled-components"
+import Image from "gatsby-image"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -10,6 +11,7 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     const blogPath = `${__PATH_PREFIX__}/blog/`
     let header
+    console.log(this)
 
     if (location.pathname === rootPath || location.pathname === blogPath) {
       header = (
@@ -33,8 +35,17 @@ class Layout extends React.Component {
             }}
             to={location.pathname === blogPath ? `/blog/` : `/`}
           >
-            <img style={{ margin: 0 }} src="./metalhead-dev-text-logo.png" alt="The Metalhead Dev Text Logo" />
-            <img style={{ margin: 0 }} src="./metalhead-dev-skull-logo.png" alt="The Metalhead Dev Skull Logo" />
+            <Image
+              alt="The Metalhead Dev Text Logo"
+              fluid={this.props.images.textLogo.childImageSharp.fluid}
+              style={{ margin: 0 }}
+            />       
+            <Image
+              alt="The Metalhead Dev Skull Logo"
+              fluid={this.props.images.skull.childImageSharp.fluid}
+              style={{ margin: 0 }}
+              objectFit="contain"
+            />
           </Link>
         </h1>
       )
