@@ -12,7 +12,7 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Home"
+          title=""
           keywords={[`metalhead`, `dev`, `tech`, `blog`, `metal`, `and`, `coffee`]}
         />
         <img style={{ margin: 0 }} src="./metalhead-dev-toon.png" alt="Animated portrait of The Metalhead Dev" />
