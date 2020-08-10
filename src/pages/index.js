@@ -10,7 +10,7 @@ class IndexPage extends React.Component {
     const siteTitle = "The Metalhead Dev"
 
     return (
-      <Layout location={this.props.location} title={siteTitle} images={this.props.data}>
+      <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title=""
           keywords={[`metalhead`, `dev`, `tech`, `blog`, `metal`, `and`, `coffee`]}
@@ -34,26 +34,12 @@ class IndexPage extends React.Component {
 
 export default IndexPage
 
-export const imageQuery = graphql`
+export const indexImageQuery = graphql`
   query indexImageQuery {
     webToon: file(absolutePath: { regex: "/metalhead-dev-toon.png/" }) {
       childImageSharp {
         sizes(maxWidth: 630) {
           ...GatsbyImageSharpSizes
-        }
-      }
-    }
-    skull: file(absolutePath: { regex: "/metalhead-dev-skull-logo.png/" }) {
-      childImageSharp {
-        fluid(maxWidth: 100) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    textLogo: file(absolutePath: { regex: "/metalhead-dev-text-logo.png/" }) {
-      childImageSharp {
-        fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }

@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import styled from "styled-components"
 import Image from "gatsby-image"
 
@@ -11,7 +11,6 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     const blogPath = `${__PATH_PREFIX__}/blog/`
     let header
-    console.log(this)
 
     if (location.pathname === rootPath || location.pathname === blogPath) {
       header = (
@@ -35,16 +34,25 @@ class Layout extends React.Component {
             }}
             to={location.pathname === blogPath ? `/blog/` : `/`}
           >
-            <Image
-              alt="The Metalhead Dev Text Logo"
-              fluid={this.props.images.textLogo.childImageSharp.fluid}
-              style={{ margin: 0 }}
-            />       
-            <Image
-              alt="The Metalhead Dev Skull Logo"
-              fluid={this.props.images.skull.childImageSharp.fluid}
-              style={{ margin: 0 }}
-              objectFit="contain"
+            <StaticQuery
+              query={headerImageQuery}
+              render={data => {
+                return (
+                  <>
+                    <Image
+                      alt="The Metalhead Dev Text Logo"
+                      fluid={data.textLogo.childImageSharp.fluid}
+                      style={{ margin: 0 }}
+                    />       
+                    <Image
+                      alt="The Metalhead Dev Skull Logo"
+                      fluid={data.skull.childImageSharp.fluid}
+                      style={{ margin: 0 }}
+                      objectFit="contain"
+                    />
+                  </>
+                )
+              }}
             />
           </Link>
         </h1>
@@ -107,3 +115,29 @@ const Footer = styled.footer`
 `
 
 export default Layout
+
+export const headerImageQuery = graphql`
+  query headerImageQuery {
+    webToon: file(absolutePath: { regex: "/metalhead-dev-toon.png/" }) {
+      childImageSharp {
+        sizes(maxWidth: 630) {
+          ...GatsbyImageSharpSizes
+        }
+      }
+    }
+    skull: file(absolutePath: { regex: "/metalhead-dev-skull-logo.png/" }) {
+      childImageSharp {
+        fluid(maxWidth: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    textLogo: file(absolutePath: { regex: "/metalhead-dev-text-logo.png/" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+  }
+`
