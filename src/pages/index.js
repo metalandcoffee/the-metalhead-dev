@@ -21,12 +21,13 @@ class IndexPage extends React.Component {
           sizes={this.props.data.webToon.childImageSharp.sizes}
           style={{ display: `block`, margin: `0 auto` }}
         />
-        <h1 style={{ fontFamily: `'Raleway',sans-serif`, textAlign: `center` }}>
-          Coming soon...{" "}
+        <h1 style={{ textAlign: `center` }}>
+        WordPress Queen & Metalhead.{" "}
           <span role="img" aria-label="metal horns emoji">
             🤘🏾
           </span>
         </h1>
+        <p>My blog is coming to you soon. Excited to share knowledge with you!</p>
       </Layout>
     )
   }

@@ -94,6 +94,9 @@ class Layout extends React.Component {
           © {new Date().getFullYear()}, Site-in-progress by
           {` `}
           <a href="https://twitter.com/metalandcoffee_">Metal & Coffee</a>
+          <span role="img" aria-label="sparkle emoji">
+            ✨
+          </span>
         </Footer>
       </Wrapper>
     )
