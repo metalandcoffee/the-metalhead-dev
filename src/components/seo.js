@@ -67,11 +67,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: site.siteMetadata.title,
         },
         {
           name: `twitter:text:title`,
-          content: metaDescription,
+          content: site.siteMetadata.title,
         },
         {
           name: `twitter:description`,
