@@ -1,7 +1,7 @@
 ---
 path: awesome-images
 date: 2021-01-03T02:22:55.506Z
-title: Awesome Images
+title: Awesome Images Duh
 description: Fix for gatsby-plugin-mdx and gatsby-remark-images
 ---
 Ebonie Butler
