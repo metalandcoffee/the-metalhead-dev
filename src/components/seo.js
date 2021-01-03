@@ -9,10 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import Icon from "../../static/metalhead-dev-full-logo.png"
 
 function SEO({ description, lang, meta, keywords, title }) {
-  const { site } = useStaticQuery(
+  const { site, webToon } = useStaticQuery(
     graphql`
       query {
         site {
@@ -23,12 +22,19 @@ function SEO({ description, lang, meta, keywords, title }) {
             siteUrl
           }
         }
+        webToon: file(absolutePath: { regex: "/metalhead-dev-toon.png/" }) {
+          childImageSharp {
+            fluid(maxWidth: 630) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `
   )
 
   const metaDescription = description || site.siteMetadata.description
-
+  
   return (
     <Helmet
       htmlAttributes={{
@@ -55,15 +61,11 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content: `${site.siteMetadata.siteUrl}${Icon}`,
+          content: webToon.childImageSharp.fluid.src,
         },
         {
           name: `twitter:card`,
           content: `summary`,
-        },
-        {
-          property: `twitter:image`,
-          content: `${site.siteMetadata.siteUrl}${Icon}`,
         },
         {
           name: `twitter:creator`,
