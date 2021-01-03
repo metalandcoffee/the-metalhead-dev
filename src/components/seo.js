@@ -62,6 +62,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `summary`,
         },
         {
+          property: `twitter:image`,
+          content: `${site.siteMetadata.siteUrl}${Icon}`,
+        },
+        {
           name: `twitter:creator`,
           content: site.siteMetadata.author,
         },
