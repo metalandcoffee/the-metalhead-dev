@@ -9,10 +9,9 @@ class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    const blogPath = `${__PATH_PREFIX__}/blog/`
     let header
 
-    if (location.pathname === rootPath || location.pathname === blogPath) {
+    if (location.pathname === rootPath) {
       header = (
         <h1
           style={{
@@ -23,7 +22,6 @@ class Layout extends React.Component {
         >
           <Link
             style={{
-              display: `block`,
               display: `grid`,
               gridTemplateColumns: `1fr 50px`,
               gridGap: `10px`,
@@ -32,7 +30,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={location.pathname === blogPath ? `/blog/` : `/`}
+            to={`/`}
           >
             <StaticQuery
               query={headerImageQuery}
@@ -70,7 +68,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/blog/`}
+            to={`/`}
           >
             {title}
           </Link>
@@ -83,15 +81,20 @@ class Layout extends React.Component {
           style={{
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: rhythm(24),
+            maxWidth: rhythm(35),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
           <header>{header}</header>
-          <main>{children}</main>
+          <main
+            style={ location.pathname === rootPath ? {
+              display: `grid`,
+              gridTemplateColumns: `1fr 1fr`,
+            } : {}}
+          >{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Site-in-progress by
+          © {new Date().getFullYear()}, Site by
           {` `}
           <a href="https://twitter.com/metalandcoffee_">Metal & Coffee</a>
           <span role="img" aria-label="sparkle emoji">
@@ -108,7 +111,6 @@ const Wrapper = styled.div`
   font-weight: 600;
   background-color: #030303;
   color: #E0A3C8;
-  min-height: 100vh;
 `
 
 const Footer = styled.footer`
