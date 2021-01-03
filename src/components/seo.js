@@ -9,9 +9,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import WebToon from "../../static/metalhead-dev-toon.png"
 
 function SEO({ description, lang, meta, keywords, title }) {
-  const { site, webToon } = useStaticQuery(
+  const { site } = useStaticQuery(
     graphql`
       query {
         site {
@@ -20,13 +21,6 @@ function SEO({ description, lang, meta, keywords, title }) {
             description
             author
             siteUrl
-          }
-        }
-        webToon: file(absolutePath: { regex: "/metalhead-dev-toon.png/" }) {
-          childImageSharp {
-            fluid(maxWidth: 630) {
-              ...GatsbyImageSharpFluid
-            }
           }
         }
       }
@@ -61,7 +55,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content: webToon.childImageSharp.fluid.src,
+          content:  `${site.siteMetadata.siteUrl}${WebToon}`,
         },
         {
           name: `twitter:card`,
