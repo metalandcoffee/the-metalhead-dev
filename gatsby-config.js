@@ -4,7 +4,7 @@ module.exports = {
     title: `The Metalhead Dev`,
     author: `Ebonie Butler`,
     description: `The Metalhead Dev. Coding, Metal and Coffee. 💀`,
-    siteUrl: `https://themetalheaddev.com/`,
+    siteUrl: `https://themetalhead.dev/`,
     social: {
       twitter: `metalandcoffee_`,
     },
