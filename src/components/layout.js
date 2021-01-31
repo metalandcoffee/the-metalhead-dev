@@ -81,20 +81,15 @@ class Layout extends React.Component {
           style={{
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: rhythm(35),
+            maxWidth: rhythm(24),
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
           <header>{header}</header>
-          <main
-            style={ location.pathname === rootPath ? {
-              display: `grid`,
-              gridTemplateColumns: `1fr 1fr`,
-            } : {}}
-          >{children}</main>
+          <main>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Site by
+          © {new Date().getFullYear()}, Site-in-progress by
           {` `}
           <a href="https://twitter.com/metalandcoffee_">Metal & Coffee</a>
           <span role="img" aria-label="sparkle emoji">
