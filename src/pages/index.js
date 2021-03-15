@@ -28,7 +28,7 @@ class IndexPage extends React.Component {
             </span>
           </h1>
         </header>
-        <p>My blog is coming to you soon. Excited to share knowledge with you!</p>
+        <RecentPosts />
       </Layout>
     )
   }
