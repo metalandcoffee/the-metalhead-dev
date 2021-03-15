@@ -21,12 +21,12 @@ class IndexPage extends React.Component {
             fluid={this.props.data.webToon.childImageSharp.fluid}
             style={{ display: `block`, margin: `0 auto` }}
           />
-          <h1 style={{ textAlign: `center` }}>
+          <h3 style={{ textAlign: `center` }}>
           WordPress Queen & Metalhead.{" "}
             <span role="img" aria-label="metal horns emoji">
               🤘🏾
             </span>
-          </h1>
+          </h3>
         </header>
         <RecentPosts />
       </Layout>

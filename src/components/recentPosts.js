@@ -20,6 +20,7 @@ function RecentPosts() {
         return (
           <Container>
             <div style={{ margin: "20px 0 40px" }}>
+            <h2>Recent Posts</h2>
               {posts.map(({ node }) => {
                 const title = node.frontmatter.title || node.fields.slug
                 return (

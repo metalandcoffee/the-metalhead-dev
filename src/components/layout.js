@@ -89,7 +89,7 @@ class Layout extends React.Component {
           <main
             style={ location.pathname === rootPath ? {
               display: `grid`,
-              gridTemplateColumns: `1fr 1fr`,
+              gridTemplateColumns: `repeat(auto-fit, minmax(240px, 1fr))`,
             } : {}}
           >{children}</main>
         </div>
