@@ -1,5 +1,5 @@
 ---
-path: awesome-images
+path: awesome-images-test
 date: 2021-03-15T15:50:39.880Z
 title: Test Page
 description: Fix for gatsby-plugin-mdx and gatsby-remark-images
