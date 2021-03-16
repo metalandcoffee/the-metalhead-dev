@@ -9,7 +9,7 @@ Wordpress 5.7 [Esperanza](https://wordpress.org/news/2021/03/esperanza/) came ou
 
 ![](../assets/screen-shot-2021-03-15-at-10.25.37-pm.png)
 
-As a black woman, I always saw it as an obstacle to get involved in a project that you are passionate about when the space is commonly dominated by males.
+As a black woman, it is always an obstacle to get involved in a space where there is either no one or very few people who look like you. That has been a lifelong struggle honestly! 
 
 After showing interest in taking on a lead role for the next major release, Francesca Marano approached me with the offer to take on the Release Coordinator role for WordPress 5.7. I didn’t really know what was in store as I was hoping for something more code-centric (like Core Tech Lead) but I also understand that I do not have enough experience for that. And although I didn’t have any experience with this r but I just said 👍🏾.
 
@@ -28,7 +28,9 @@ There is a really cool time conversion plugin on WordPress.org and it is respons
 [time]February 4, 2021 9:35 am America/Chicago[/time]
 ```
 
-And on the front-end, it will properly convert the time for that user. This side note is mostly for me as I plan to dig into the [code](https://github.com/WordPress/wordpress.org/blob/master/wordpress.org/public_html/wp-content/mu-plugins/pub/wporg-time-shortcode.php) and create my own version of this ✨ ![](https://lh6.googleusercontent.com/_aZOAQtenqVpLJw2w7vhEuDeaof16vLBDAgMq5xbWAFVmnw4ipiwVkKAGjf9FVDt8-sc5Uj51sLpyl8rji5KvWYMnsJzUJ_BW7qvc2jAzlimS1fKoNnBNxl0xzMevHQ53ZT1FwF5)
+And on the front-end, it will properly convert the time for that user. This side note is mostly for me as I plan to dig into the [code](https://github.com/WordPress/wordpress.org/blob/master/wordpress.org/public_html/wp-content/mu-plugins/pub/wporg-time-shortcode.php) and create my own version of this ✨ 
+
+![](https://lh6.googleusercontent.com/_aZOAQtenqVpLJw2w7vhEuDeaof16vLBDAgMq5xbWAFVmnw4ipiwVkKAGjf9FVDt8-sc5Uj51sLpyl8rji5KvWYMnsJzUJ_BW7qvc2jAzlimS1fKoNnBNxl0xzMevHQ53ZT1FwF5)
 
 Along with publishing [dev chats](https://make.wordpress.org/core/2021/03/02/dev-chat-agenda-for-march-3rd-2021/), I began to prep for running dev chats. At first, I wrote scripts for each dev chat! But after running my 6th or 7th one, I began to go with the flow more and do it without any guidance outside of the previously published agenda. In the beginning, I didn’t understand what people were talking about. So I never contributed much to the conversations around topics like… but that comfort and experience comes with time so I don’t fault myself for not being able to even in this very moment.
 
@@ -66,4 +68,4 @@ The milestones after Beta 1 included the following:
 
 The process was pretty much the same as before so I won’t go into details about these.
 
-Because my next section about the final release another lengthy section, I have split this post into 2 parts. Part 2 will be live in a couple days but thank you so much for taking the time to read about my experience so far.
+Because my next section about the final release is another lengthy section, I have split this post into 2 parts. Part 2 will be live in a couple days but thank you so much for taking the time to read about my experience so far.
