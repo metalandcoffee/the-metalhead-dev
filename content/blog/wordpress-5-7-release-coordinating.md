@@ -1,7 +1,7 @@
 ---
 path: wordpress-5-7-experience
 date: 2021-03-17T02:12:08.418Z
-title: WordPress 5.7 Release Coordinating
+title: WordPress 5.7 Experience (Part 1)
 description: Metal & Coffee reflects on her experience as the release
   coordinator for WordPress 5.7
 ---
