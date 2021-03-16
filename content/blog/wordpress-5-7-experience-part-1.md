@@ -23,7 +23,7 @@ The first insight I received into what this role entails was provided by the [Co
 
 Dev chats are weekly meetings to discuss the WordPress core development. The Dev Chat Agenda should be published at least 24 hours prior to the 20:00 UTC dev chat. This was nerve-wracking at first but it ended up being the easiest task out of all of the release coordination. It was made easy mostly due to the amazing release squad doing constant peer revision and providing feedback (that’s one thing I loved the most FYI. The constant support for whatever you need help with). Plus I enjoyed the incentive to read the most recently published posts on [Make WordPress Core](https://make.wordpress.org/core/) for inclusion in the agenda.
 
-*Side note:*\
+*Side note:*
 There is a really cool time conversion plugin on WordPress.org and it is responsible for the automatic timezone conversion that you see below. On the editor/back-end, you use a shortcode like:
 
 ```xml
