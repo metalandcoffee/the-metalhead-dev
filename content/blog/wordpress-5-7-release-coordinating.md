@@ -38,6 +38,8 @@ Along with publishing [dev chats](https://make.wordpress.org/core/2021/03/02/dev
 
 ## First milestone: Beta 1
 
+![](../assets/screen-shot-2021-03-16-at-11.50.59-am.png)
+
 The [Beta 1](https://wordpress.org/news/2021/02/wordpress-5-7-beta-1) milestone marked the first release of the development version of WordPress 5.7 and a few important things (from a release coordinator perspective) happened directly before and on this day.
 
 * Drafted release announcement post with a closing haiku 😂
