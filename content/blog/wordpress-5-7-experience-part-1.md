@@ -11,7 +11,11 @@ Wordpress 5.7 [Esperanza](https://wordpress.org/news/2021/03/esperanza/) came ou
 
 As a black woman, it is always an obstacle to get involved in a space where there is either no one or very few people who look like you. That has been a lifelong struggle honestly (I mean, I'm a metalhead – come on). But I've always promised myself that I will make an effort in a new space because it is always worth a try. And it's ok if sometimes it doesn't work out! Because it is important for me to never waste my time if the space that I am trying to contribute to doesn't make space for me.
 
-Well in terms of WordPress, an amazing initiative was started by [Josepha Haden Chomphosy](https://profiles.wordpress.org/chanthaboune/) to make the WordPress 5.6 team an [all women & non-binary release squad](https://make.wordpress.org/core/2020/03/11/all-women-release-squad/). And I took this opportunity to raise my hand to be involved. It was such a great [release](https://wordpress.org/news/2020/12/simone/) to witness and I walked away feeling really confident in my abilities. Although I was mostly on the sidelines watching and learning the process, this was what I needed to take my next step to be further involved in the WordPress open-source project.
+Well in terms of WordPress, an amazing initiative was started by [Josepha Haden Chomphosy](https://profiles.wordpress.org/chanthaboune/) to make the WordPress 5.6 team an [all women & non-binary release squad](https://make.wordpress.org/core/2020/03/11/all-women-release-squad/). And I took this opportunity to raise my hand to be involved.
+
+![](../assets/screen-shot-2021-03-16-at-12.41.08-pm.png)
+
+It was such a great [release](https://wordpress.org/news/2020/12/simone/) to witness and I walked away feeling really confident in my abilities. Although I was mostly on the sidelines watching and learning the process, this was what I needed to take my next step to be further involved in the WordPress open-source project.
 
 After showing interest in taking on a lead role for the next major release, [Francesca Marano](https://profiles.wordpress.org/francina/) approached me with the offer to take on the Release Coordinator role for WordPress 5.7. I didn’t really know what was in store as I was hoping for something more code-centered (like Core Tech Lead) but I also understand that I do not have enough experience for that. And although I didn’t have any experience with this role, the team was confident in me being able to handle the role 👍🏾.
 
