@@ -34,7 +34,7 @@ And on the front-end, it will properly convert the time for that user. This side
 
 ![](https://lh6.googleusercontent.com/_aZOAQtenqVpLJw2w7vhEuDeaof16vLBDAgMq5xbWAFVmnw4ipiwVkKAGjf9FVDt8-sc5Uj51sLpyl8rji5KvWYMnsJzUJ_BW7qvc2jAzlimS1fKoNnBNxl0xzMevHQ53ZT1FwF5)
 
-Along with publishing [dev chats](https://make.wordpress.org/core/2021/03/02/dev-chat-agenda-for-march-3rd-2021/), I began to prep for running dev chats. At first, I wrote scripts for each dev chat! But after running my 6th or 7th one, I began to go with the flow more and do it without any guidance outside of the previously published agenda. In the beginning, I didn’t understand what people were talking about. So I never contributed much to the conversations around topics like… but that comfort and experience comes with time so I don’t fault myself for not being able to even in this very moment.
+Along with publishing [dev chats](https://make.wordpress.org/core/2021/03/02/dev-chat-agenda-for-march-3rd-2021/), I began to prep for running dev chats. At first, I wrote scripts for each dev chat! But after running my 6th or 7th one, I began to go with the flow more and do it without any guidance outside of the previously published agenda. In the beginning, I didn’t understand what people were talking about. So I never contributed much to the conversations around topics like, for instance, IE11 support. But that comfort and experience comes with time so I don’t fault myself for not being able to even in this very moment.
 
 ## First milestone: Beta 1
 
