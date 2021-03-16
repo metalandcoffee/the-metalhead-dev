@@ -42,7 +42,7 @@ Along with publishing [dev chats](https://make.wordpress.org/core/2021/03/02/dev
 
 The [Beta 1](https://wordpress.org/news/2021/02/wordpress-5-7-beta-1) milestone marked the first release of the development version of WordPress 5.7 and a few important things (from a release coordinator perspective) happened directly before and on this day.
 
-* Drafted release announcement post with a closing haiku 😂
+* Drafted release announcement post with a closing haiku for review (I did this 3 days in advance to give time for peer revision)
 * Checked in with triage lead ([Tonya Mark](https://profiles.wordpress.org/hellofromtonya/)) on the commit status of [Trac](https://core.trac.wordpress.org/) tickets marked for 5.7 milestone.
 * Made sure the following roles are filled for the release party:
 
@@ -50,6 +50,7 @@ The [Beta 1](https://wordpress.org/news/2021/02/wordpress-5-7-beta-1) milestone 
   * A person with Mission Control access
   * A member of the security team
 * Ran the release party 🎉
+* Published announcement post!
 
 Fun fact: new features and enhancements must be committed by [Beta](https://make.wordpress.org/core/handbook/about/release-cycle/) 1. Any following releases for this WordPress version will only contain defect work.
 
