@@ -53,7 +53,7 @@ The [Beta 1](https://wordpress.org/news/2021/02/wordpress-5-7-beta-1) milestone 
 
 Fun fact: new features and enhancements must be committed by [Beta](https://make.wordpress.org/core/handbook/about/release-cycle/) 1. Any following releases for this WordPress version will only contain defect work.
 
-If you’ve never attended a release party, it is basically a Slack meeting in the #core channel at a predetermined time run the final test suites, bundle up the WordPress code into a package and then ask all attendees to test the installation process of this newly bundled package. If things go well after having tested the various method of installing the WordPress package, an announcement is made to the open world that the version is available to test.
+If you’ve never attended a release party, it is basically a Slack meeting in the #core channel at a predetermined time to run the final test suites, bundle up the WordPress code into a package and then ask all attendees to test the installation process of this newly bundled package. If things go well after having tested the various method of installing the WordPress package, an announcement is made to the open world that the version is available to test.
 
 As the emcee (i.e. person running the release party), it was important that there were people available to fulfill the aforementioned roles because they have tasks to complete during the release party and it will ensure that the party goes smoothly and efficiently. 
 
