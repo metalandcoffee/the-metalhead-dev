@@ -7,11 +7,13 @@ description: Metal & Coffee reflects on her experience as the release
 ---
 Wordpress 5.7 [Esperanza](https://wordpress.org/news/2021/03/esperanza/) came out last week and saying that it was simply a “rewarding experience” is an understatement. My initial feeling was relief. But then I thought about how I made it through coordinating a release for an open-source project that is responsible for powering at least [40%](https://w3techs.com/technologies/details/cm-wordpress) of the websites on the internet. How mind boggling and strange… and fucking cool!
 
-After showing interest in taking on a lead role for the next major release, Francesca Marano approached me with the offer to take on the Release Coordinator role for WordPress 5.7. I didn’t really know what was in store as I was hoping for something more code-centric (like Core Tech Lead) but I also understand that I did not have enough experience for that. So I accepted! I didn’t know what I’d be doing but I just said 👍🏾.
+After showing interest in taking on a lead role for the next major release, Francesca Marano approached me with the offer to take on the Release Coordinator role for WordPress 5.7. I didn’t really know what was in store as I was hoping for something more code-centric (like Core Tech Lead) but I also understand that I do not have enough experience for that. And although I didn’t have any experience with this r but I just said 👍🏾.
 
 The first insight I received into what this role entails was provided by the [Core Handbook](https://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#release-co-ordinatorhttps://make.wordpress.org/core/handbook/about/release-cycle/wordpress-release-team-and-focus-leads/#release-co-ordinator). And then after meeting with Francesa, who has coordinated many releases prior, to chat more about the role, I set off on my journey.
 
 ## Dev chats
+
+![](../assets/screen-shot-2021-03-15-at-10.21.20-pm.png)
 
 The Dev Chat Agenda should be published at least 24 hours prior to the 20:00 UTC dev chat. This was nerve-wracking at first but it ended up being the easiest task out of all of the release coordination. It was made easy mostly due to the amazing release squad doing constant peer revision and providing feedback (That’s one thing I loved the most FYI. The constant support for whatever you need help with). Plus I enjoyed the incentive to read the most recently published posts on [Make WordPress Core](https://make.wordpress.org/core/) for inclusion in the agenda.
 
