@@ -41,7 +41,8 @@ The [Beta 1](https://wordpress.org/news/2021/02/wordpress-5-7-beta-1) milestone 
 * Drafted release announcement post with a closing haiku 😂
 * Checked in with triage lead (Tonya Mark) on the commit status of [Trac](https://core.trac.wordpress.org/) tickets marked for 5.7 milestone.
 * Made sure the following roles are filled for the release party:
-* * Committer
+
+  * Committer
   * A person with Mission Control access
   * A member of the security team
 * Ran the release party 🎉
