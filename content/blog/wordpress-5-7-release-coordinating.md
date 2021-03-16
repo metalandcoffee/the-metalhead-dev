@@ -21,8 +21,7 @@ The first insight I received into what this role entails was provided by the [Co
 
 Dec chats are weekly meetings... The Dev Chat Agenda should be published at least 24 hours prior to the 20:00 UTC dev chat. This was nerve-wracking at first but it ended up being the easiest task out of all of the release coordination. It was made easy mostly due to the amazing release squad doing constant peer revision and providing feedback (That’s one thing I loved the most FYI. The constant support for whatever you need help with). Plus I enjoyed the incentive to read the most recently published posts on [Make WordPress Core](https://make.wordpress.org/core/) for inclusion in the agenda.
 
-*Side note:*
-
+*Side note:*\
 There is a really cool time conversion plugin on WordPress.org and it is responsible for the automatic timezone conversion that you see below. On the editor/back-end, you use a shortcode like:
 
 ```xml
@@ -35,7 +34,7 @@ Along with publishing [dev chats](https://make.wordpress.org/core/2021/03/02/dev
 
 ## First milestone: Beta 1
 
-The Beta 1 milestone marked the first release of the development version of WordPress 5.7 and a few important things (from a release coordinator perspective) happened directly before and on this day.
+The [Beta 1](https://wordpress.org/news/2021/02/wordpress-5-7-beta-1) milestone marked the first release of the development version of WordPress 5.7 and a few important things (from a release coordinator perspective) happened directly before and on this day.
 
 * Drafted release announcement post with a closing haiku 😂
 * Checked in with triage lead (Tonya Mark) on the commit status of [Trac](https://core.trac.wordpress.org/) tickets marked for 5.7 milestone.
@@ -55,23 +54,16 @@ Thank you so much to Josepha Haden Chomphosy, JB Audras, Sergey Biryukov, France
 
 The current release party [instructions](https://make.wordpress.org/core/handbook/about/release-cycle/releasing-beta-versions/) are very dense to be honest but Tonya Mark provided a more user-friendly version that ended up helping me immensely and it led me to understand the handbook instructions a lot better. One of my post-release tasks is to improve these instructions so that a more user-friendly version will be available to future release coordinators.
 
-Following Betas and RCs
+## Following Betas and RCs
 
 The milestones after Beta 1 included the following:
 
-* Beta 2
-* Beta 3
-* RC 1
-* RC 2
-* RC 3 (unplanned but needed due to reported blocking issues resulting in codebase change)
+* [Beta 2](https://wordpress.org/news/2021/02/wordpress-5-7-beta-2)
+* [Beta 3](https://wordpress.org/news/2021/02/wordpress-5-7-beta-3)
+* [RC 1](https://wordpress.org/news/2021/02/wordpress-5-7-release-candidate)
+* [RC 2](https://wordpress.org/news/2021/03/wordpress-5-7-release-candidate-2)
+* [RC 3](https://make.wordpress.org/core/2021/03/05/wordpress-5-7-release-candidate-3) (unplanned but needed due to reported blocking issues resulting in codebase change)
 
 The process was pretty much the same as before so I won’t go into details about these.
 
-[hyperlink the milestone with these)
-
-* <https://wordpress.org/news/2021/02/wordpress-5-7-beta-1/>
-* <https://wordpress.org/news/2021/02/wordpress-5-7-beta-2/>
-* <https://wordpress.org/news/2021/02/wordpress-5-7-beta-3/>
-* <https://wordpress.org/news/2021/02/wordpress-5-7-release-candidate/>
-* <https://wordpress.org/news/2021/03/wordpress-5-7-release-candidate-2/>
-* <https://make.wordpress.org/core/2021/03/05/wordpress-5-7-release-candidate-3/>
+Because my next section about the final release another lengthy section, I have split this post into 2 parts. Part 2 will be live in a couple days but thank you so much for taking the time to read about my experience so far.
