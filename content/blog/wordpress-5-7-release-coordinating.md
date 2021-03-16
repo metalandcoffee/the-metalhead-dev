@@ -23,7 +23,13 @@ Dec chats are weekly meetings... The Dev Chat Agenda should be published at leas
 
 *Side note:*
 
-There is a really cool time conversion plugin on WordPress.org and it is responsible for the automatic timezone conversion that you see below. On the editor/back-end, you use a shortcode like `[time]February 4, 2021 9:35 am America/Chicago[/time]`. And on the front-end, it will properly convert the time for that user. This side note is mostly for me as I plan to dig into the [code](https://github.com/WordPress/wordpress.org/blob/master/wordpress.org/public_html/wp-content/mu-plugins/pub/wporg-time-shortcode.php) and create my own version of this ✨ ![](https://lh6.googleusercontent.com/_aZOAQtenqVpLJw2w7vhEuDeaof16vLBDAgMq5xbWAFVmnw4ipiwVkKAGjf9FVDt8-sc5Uj51sLpyl8rji5KvWYMnsJzUJ_BW7qvc2jAzlimS1fKoNnBNxl0xzMevHQ53ZT1FwF5)
+There is a really cool time conversion plugin on WordPress.org and it is responsible for the automatic timezone conversion that you see below. On the editor/back-end, you use a shortcode like:
+
+```xml
+[time]February 4, 2021 9:35 am America/Chicago[/time]
+```
+
+And on the front-end, it will properly convert the time for that user. This side note is mostly for me as I plan to dig into the [code](https://github.com/WordPress/wordpress.org/blob/master/wordpress.org/public_html/wp-content/mu-plugins/pub/wporg-time-shortcode.php) and create my own version of this ✨ ![](https://lh6.googleusercontent.com/_aZOAQtenqVpLJw2w7vhEuDeaof16vLBDAgMq5xbWAFVmnw4ipiwVkKAGjf9FVDt8-sc5Uj51sLpyl8rji5KvWYMnsJzUJ_BW7qvc2jAzlimS1fKoNnBNxl0xzMevHQ53ZT1FwF5)
 
 Along with publishing [dev chats](https://make.wordpress.org/core/2021/03/02/dev-chat-agenda-for-march-3rd-2021/), I began to prep for running dev chats. At first, I wrote scripts for each dev chat! But after running my 6th or 7th one, I began to go with the flow more and do it without any guidance outside of the previously published agenda. In the beginning, I didn’t understand what people were talking about. So I never contributed much to the conversations around topics like… but that comfort and experience comes with time so I don’t fault myself for not being able to even in this very moment.
 
