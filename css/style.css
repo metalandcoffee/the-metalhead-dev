@@ -1,0 +1,42 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#webtoon {
+    width: 200px;
+}
+
+a {
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    color: #B55394;
+    border-color: #B55394;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover {
+    background-color: #B55394;
+    color: #fff;
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+  }
+  
