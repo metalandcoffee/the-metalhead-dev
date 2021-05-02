@@ -1,6 +1,6 @@
-[submodule "showcase/showcase/cocktail-search"]
-	path = showcase/showcase/cocktail-search
-	url = https://github.com/metalandcoffee/cocktail-search
 [submodule "showcase/cocktail-search"]
 	path = showcase/cocktail-search
 	url = https://github.com/metalandcoffee/cocktail-search
+[submodule "showcase/breakout-game"]
+	path = showcase/breakout-game
+	url = https://github.com/metalandcoffee/2d-breakout-game
