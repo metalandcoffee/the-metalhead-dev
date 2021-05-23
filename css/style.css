@@ -1,32 +1,36 @@
-/* to-do organize css and use css variables to define colors */
+/* || Variables */
+:root {
+    --purple-link-color: #B55394;
+    --white: #fff;
+    --black: #1b1b1b;
+}
+
+/* || General Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lily Script One', cursive;
+}
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
-#webtoon {
-    width: 200px;
+a {}
+
+.button {
+    min-width: 400px;
 }
 
-#social-links a {
-    display: block;
-    padding: 20px;
-    margin: 10px;
-    border-style: solid;
-    border-width: 2px;
-    color: #B55394;
-    border-color: #B55394;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: all 0.5s;
-}
-
-#social-links a:hover {
-    background-color: #B55394;
-    color: #fff;
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: all 0.2s;
 }
 
 .screen-reader-text {
@@ -40,5 +44,96 @@ body {
     position: absolute;
     width: 1px;
     word-wrap: normal !important;
-  }
+}
+
+.two-column-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 350px;
+    grid-gap: 2rem;
+    align-items: stretch;
+}
   
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--purple-link-color);
+    opacity: 0.2;
+}
+
+.border-radius-5p {
+    border-radius: 5%;
+}
+
+/* || Images */
+#webtoon {
+    width: 200px;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#social-links a {
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    color: var(--white);
+    background-color: var(--purple-link-color);
+    border-color: var(--purple-link-color);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+#social-links a:hover {
+    background-color: var(--white);
+    color: var(--purple-link-color);
+}
+
+/* || Showcase */
+
+#showcase ol {
+    list-style: none;
+    padding: 0;
+}
+
+#showcase ol li {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#showcase ol li a {
+    display: block;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+#showcase ol li a:hover img {
+    transform: scale(1.2);
+}
+
+#showcase ol li a h3 {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--black);
+    margin: 0;
+    padding: 1rem;
+    color: var(--white);
+    width: 100%;
+
+}
+
+/* @todo try out different header and body font combinations and experiment with letter spacing and word spacing.

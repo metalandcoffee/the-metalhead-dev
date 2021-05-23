@@ -8,24 +8,46 @@
         <meta name="author" content="Metal & Coffee">
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>Metal & Coffee</h1>
         <img id="webtoon" src="webtoon.png" alt="Toon version of Metal & Coffee" />
         <section id="social-links">
             <h2 class="screen-reader-text">Social Media Links</h2>
-            <a href="https://www.twitch.tv/metalandcoffee_" target="_blank">Twitch</a>
-            <a href="https://github.com/metalandcoffee" target="_blank">Github</a>
-            <a href="https://twitter.com/metalandcoffee_" target="_blank">Twitter</a>
+            <a class="button" href="https://www.metalandcoffee.com" target="_blank">Website</a>
+            <a class="button" href="https://www.mixcloud.com/metalandcoffee" target="_blank">Mixcloud</a>
+            <a class="button" href="https://www.twitch.tv/metalandcoffee_" target="_blank">Twitch</a>
+            <a class="button" href="https://github.com/metalandcoffee" target="_blank">Github</a>
+            <a class="button" href="https://twitter.com/metalandcoffee_" target="_blank">Twitter</a>
         </section>
-        <section>
+        <section id="showcase">
             <h2>Showcase</h2>
-            <ol>
-                <li><a href="showcase/cocktail-search/dist/index.html" target="_blank">Cocktail Search (Open-source API, Parcel.js)</a></li>
-                <li><a href="https://www.wpwomenofcolor.com" target="_blank">wpwomenofcolor.com (Gatsby.js)</a></li>
-                <li>Upcoming</li>
-                <li><a href="showcase/breakout-game/index.html" target="_blank">2D Breakout Game (WIP)</a></li>
+            <ol class="two-column-grid">
+                <li>
+                    <a class="border-radius-5p" href="showcase/cocktail-search/dist/index.html" target="_blank">
+                        <div class="image-overlay border-radius-5p"></div>
+                        <img class="border-radius-5p" src="https://source.unsplash.com/random/600x500">
+                        <h3 class="">Cocktail Search (Open-source API, Parcel.js)</h3>
+                    </a>
+                </li>
+                <li>
+                    <a class="border-radius-5p" href="https://www.wpwomenofcolor.com" target="_blank">
+                        <div class="image-overlay border-radius-5p"></div>
+                        <img class="border-radius-5p" src="https://source.unsplash.com/random/600x500">
+                        <h3 class="">WordPress Women of Color (Gatsby.js)</h3>
+                    </a>  
+                </li>
+                <li>    
+                    <a class="border-radius-5p" href="showcase/breakout-game/index.html" target="_blank">
+                        <div class="image-overlay border-radius-5p"></div>
+                        <img class="border-radius-5p" src="https://source.unsplash.com/random/600x500">
+                        <h3 class="">2D Breakout Game (pure Javascript)</h3>
+                    </a>
+                </li>
+            </ol>
+            <h2>Upcoming Projects</h2>
+            <ol class="">
                 <li>Weather app with DarkSky API</li>
                 <li>Chatting app with Vue.js</li>
                 <li>To-do app with React</li>
