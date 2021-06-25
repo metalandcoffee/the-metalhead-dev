@@ -1,8 +1,37 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 /* CSS Variables. */
 
 :root {
     --black: #010101;
-    --white: #ffffff;
+    --white: #ccb8ca;
+    --purple: #4c1b7b;
+    --pink: #f297a6;
+    --link: #b269ab;
+    --magneta: #b25086;
+
+    font-size: 16px;
   }
 
 /* Globals */
@@ -12,11 +41,50 @@ body {
     background-color: var(--black);
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.1;
+}
+
+nav {
+    /* start tmp styles */
+    height: 2.5rem;
+    /* end tmp styles */
+
+    background-color: var( --magneta );
+    border-bottom: 0.5rem solid var(--purple);
+}
+
+h1 {
+    font-size: 4.25rem;
+    letter-spacing: -6px;
+    margin: 1rem 0;
+}
+
+h2, h3 {
+    margin: 0.75rem 0;
+}
+h2 {
+    font-size: 2.625rem;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 1.625rem;
 }
 
 img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--link);
 }
 
 .container {
@@ -31,4 +99,18 @@ img {
 
 .container__img-width280 {
     max-width: 280px;
+}
+
+.container__svg-icon {
+    fill: currentColor;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.container__img-webtoon {
+    width: 200px;
+    margin-right: 1rem;
+    float: left;
+    object-position: right top;
 }
