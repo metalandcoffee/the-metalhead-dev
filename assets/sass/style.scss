@@ -1,0 +1,35 @@
+/** TABLE OF CONTENTS
+------------------------------------------------------------/
+1 - Reset
+2 - Colors
+3 - Navigation
+/// END TABLE OF CONTENTS **/
+
+@import 'reset.scss';
+
+:root {
+    --black: #1C1722;
+    --white: #F9EFEF;
+    --pink: #DB749D;
+    --blue: #6C4FCE;
+    --green: #69AF71;
+    --purple: #4E2D73;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+nav {
+    background-color: var(--pink);
+}
+
+
+
+
+
+

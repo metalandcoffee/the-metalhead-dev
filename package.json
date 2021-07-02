@@ -1,0 +1,23 @@
+{
+  "name": "the-metalhead-dev",
+  "version": "1.0.0",
+  "description": "The Metalhead Dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalandcoffee/the-metalhead-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metalandcoffee/the-metalhead-dev/issues"
+  },
+  "homepage": "https://github.com/metalandcoffee/the-metalhead-dev#readme",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "sass": "^1.35.1"
+  }
+}
