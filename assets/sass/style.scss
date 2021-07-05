@@ -5,16 +5,12 @@
 3 - Navigation
 /// END TABLE OF CONTENTS **/
 
-@import 'reset.scss';
 
-:root {
-    --black: #1C1722;
-    --white: #F9EFEF;
-    --pink: #DB749D;
-    --blue: #6C4FCE;
-    --green: #69AF71;
-    --purple: #4E2D73;
-}
+@import 'reset';
+@import 'mixin';
+@import 'colors';
+@import 'utilities';
+@import 'nav';
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -24,12 +20,36 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Carrois Gothic SC', sans-serif;
 }
 
-nav {
-    background-color: var(--pink);
+a {
+    display: inline-block;
+    vertical-align: middle;
 }
 
+svg {
+    display: block;
+    fill: var(--purple);
+    @include fade;
 
+    &:hover {
+        fill: var(--blue);
+    }
+}
 
+nav {
+    background-color: var(--pink);
+    padding: 1rem;
+}
 
-
-
+/* Text meant only for screen readers. */
+.screen-reader-only {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}

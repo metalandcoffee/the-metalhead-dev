@@ -59,13 +59,52 @@ table {
   --green: #69AF71;
   --purple: #4E2D73; }
 
+.u-display-flex {
+  display: flex; }
+  .u-display-flex li {
+    margin-right: 1rem; }
+
+.u-justify-content-space-between {
+  justify-content: space-between; }
+
+.u-align-items-center {
+  align-items: center; }
+
+#site-navigation {
+  border-bottom: 6px solid var(--purple); }
+
 body {
   font-family: 'Montserrat', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Carrois Gothic SC', sans-serif; }
 
+a {
+  display: inline-block;
+  vertical-align: middle; }
+
+svg {
+  display: block;
+  fill: var(--purple);
+  transition: all 0.3s; }
+  svg:hover {
+    fill: var(--blue); }
+
 nav {
-  background-color: var(--pink); }
+  background-color: var(--pink);
+  padding: 1rem; }
+
+/* Text meant only for screen readers. */
+.screen-reader-only {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important; }
 
 /*# sourceMappingURL=style.css.map */
