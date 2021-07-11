@@ -7,22 +7,64 @@
 
 
 @import 'reset';
+@import 'func';
 @import 'mixin';
 @import 'colors';
 @import 'utilities';
 @import 'nav';
+@import 'socials';
+
+html {
+    font-size: 100%
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Carrois Gothic SC', sans-serif;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: rem(50px);
+}
+
+h2 {
+    font-size: rem(32px);
+    @include breakpoint(tablet) {
+        font-size: rem(44px);
+    }
+}
+
+h3 {
+    font-size: rem(38px);
+}
+
+h4 {
+    font-size: rem(32px);
+}
+
+h5 {
+    font-size: rem(26px);
+}
+
+h6 {
+    font-size: rem(20px);
 }
 
 a {
     display: inline-block;
     vertical-align: middle;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 svg {
@@ -33,11 +75,6 @@ svg {
     &:hover {
         fill: var(--blue);
     }
-}
-
-nav {
-    background-color: var(--pink);
-    padding: 1rem;
 }
 
 /* Text meant only for screen readers. */
@@ -52,4 +89,15 @@ nav {
     position: absolute;
     width: 1px;
     word-wrap: normal !important;
+}
+
+.bio {
+    padding: 20px;
+    color: var(--white);
+    text-align: center;
+}
+
+.bio__image-webtoon {
+    max-width: rem(250px);
+    margin-bottom: rem(16px);
 }

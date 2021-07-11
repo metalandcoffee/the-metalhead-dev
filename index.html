@@ -14,8 +14,8 @@
 <body>
     <!-- Navigation -->
     <header>
-        <nav id="site-navigation" class="u-display-flex u-justify-content-space-between">
-            <div id="social-links">
+        <nav id="site-navigation" class="nav__header u-display-flex u-flex-direction-row@tablet u-justify-content-space-between">
+            <div id="social-links" class="social__header">
                 <h2 class="screen-reader-only">Social Media Links</h2>
                 <ul class="u-display-flex u-align-items-center" aria-labelledby="social-links">
                     <li>
@@ -68,13 +68,13 @@
                 <h2 class="screen-reader-only">Navigation menu</h2>
                 <ul class="u-display-flex u-align-items-center" aria-labelledby="nav-menu">
                     <li>
-                        <a href="#" title="See All Mixtapes">Mixtapes</a>
+                        <a class="nav__link" href="#" title="See All Mixtapes">Mixtapes</a>
                     </li>
                     <li>
-                        <a href="#" title="See All Recent Posts">Recent Posts</a>
+                        <a class="nav__link" href="#" title="See All Recent Posts">Recent Posts</a>
                     </li>
                     <li>
-                        <a href="#" title="See All Projects">Projects</a>
+                        <a class="nav__link" href="#" title="See All Projects">Projects</a>
                     </li>
                 </ul>
             </div>
@@ -82,8 +82,12 @@
     </header>
     <main>
         <!-- Intro -->
-        <section>
-            <h1>The Metalhead Dev</h1>
+        <section class="bio u-background-dark">
+            <img class="bio__image-webtoon" src="images/webtoon.png" alt="Metal & Coffee Webtoon" />
+            <h1>
+                <img src="images/metalheadevlogo.png" alt="The Metalhead Dev Logo" />
+            </h1>
+            <h2>Metal DJ, Web Developer, Twitch Streamer</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sapien orci. Nam rhoncus dolor eu rutrum malesuada. Quisque maximus eu nisi eget euismod. </p>
         </section>
         <!-- Recent Posts -->

@@ -1,3 +1,14 @@
+$screen-desktop: 62.5rem; // 1000px
+$screen-tablet:  48rem; // 768px
+
+@mixin breakpoint($point) {
+	@if $point == desktop {
+		@media (min-width: $screen-desktop) { @content; }
+	} @else if $point == tablet {
+		@media (min-width: $screen-tablet) { @content; }
+	}
+}
+
 @mixin fade {
     transition: all 0.3s;
 }

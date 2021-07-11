@@ -1,3 +1,12 @@
-#site-navigation {
+.nav__header {
+    background-color: var(--pink);
+    padding: 1rem;
     border-bottom: 6px solid var(--purple);
+}
+
+.nav__link {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: rem(22px);
+    letter-spacing: -1px;
+    color: var(--black);
 }

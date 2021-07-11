@@ -1,5 +1,14 @@
+.u-flex-direction-row\@tablet {
+    flex-direction: column;
+
+    @include breakpoint(tablet) {
+        flex-direction: row;
+    }
+}
+
 .u-display-flex {
     display: flex;
+    align-items: center;
 
     li {
         margin-right: 1rem;
@@ -12,4 +21,8 @@
 
 .u-align-items-center {
     align-items: center;
+}
+
+.u-background-dark {
+    background-color: var(--black);
 }
