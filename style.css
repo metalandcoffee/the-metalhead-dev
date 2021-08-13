@@ -4,53 +4,6 @@
 2 - Colors
 3 - Navigation
 /// END TABLE OF CONTENTS **/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 :root {
   --black: #1C1722;
   --white: #F9EFEF;
@@ -80,6 +33,9 @@ table {
 .u-background-dark {
   background-color: var(--black); }
 
+.u-list-style-none {
+  list-style: none; }
+
 .nav__header {
   background-color: var(--pink);
   padding: 1rem;
@@ -91,25 +47,43 @@ table {
   letter-spacing: -1px;
   color: var(--black); }
 
-.social__header {
-  margin-bottom: 0.625rem; }
+.social__header ul {
+  padding: 0;
+  margin: 0; }
 
 html {
   font-size: 100%; }
 
+* {
+  box-sizing: border-box; }
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
   font-size: 16px;
-  line-height: 1; }
+  line-height: 1;
+  font-weight: 300;
+  background-color: var(--black);
+  color: var(--white); }
+
+main {
+  width: 100%;
+  padding: 20px; }
+  @media (min-width: 48rem) {
+    main {
+      max-width: 850px;
+      margin: 0 auto; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Carrois Gothic SC', sans-serif;
-  margin-bottom: 1rem; }
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 400; }
 
 h1 {
   font-size: 3.125rem; }
 
 h2 {
+  letter-spacing: -0.5px;
   font-size: 2rem; }
   @media (min-width: 48rem) {
     h2 {
@@ -127,10 +101,12 @@ h5 {
 h6 {
   font-size: 1.25rem; }
 
-a {
+div:not(.social__header) a {
   display: inline-block;
   vertical-align: middle;
-  text-decoration: none; }
+  text-decoration: none;
+  color: var(--white);
+  background-image: linear-gradient(0deg, rgba(108, 79, 206, 0.8) 0, rgba(108, 79, 206, 0.8) 30%, transparent 40%, transparent); }
 
 img {
   width: 100%;
@@ -142,6 +118,12 @@ svg {
   transition: all 0.3s; }
   svg:hover {
     fill: var(--blue); }
+
+hr {
+  margin: 48px 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(249, 239, 239, 0), rgba(249, 239, 239, 0.75), rgba(249, 239, 239, 0)); }
 
 /* Text meant only for screen readers. */
 .screen-reader-only {
@@ -157,12 +139,30 @@ svg {
   word-wrap: normal !important; }
 
 .bio {
-  padding: 20px;
-  color: var(--white);
   text-align: center; }
+  @media (min-width: 48rem) {
+    .bio {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 30px; } }
+  .bio h2 {
+    font-size: 2rem; }
 
 .bio__image-webtoon {
   max-width: 15.625rem;
   margin-bottom: 1rem; }
+
+.bio__logo {
+  margin-bottom: 0;
+  margin-top: 1rem; }
+  .bio__logo img {
+    width: auto; }
+
+.bio__tagline {
+  font-size: 1.125rem;
+  line-height: 1.2; }
+  @media (min-width: 48rem) {
+    .bio__tagline {
+      font-size: 1.375rem; } }
 
 /*# sourceMappingURL=style.css.map */

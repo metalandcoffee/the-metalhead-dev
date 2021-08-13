@@ -7,8 +7,7 @@
     <title>The Metalhead Dev</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -17,7 +16,7 @@
         <nav id="site-navigation" class="nav__header u-display-flex u-flex-direction-row@tablet u-justify-content-space-between">
             <div id="social-links" class="social__header">
                 <h2 class="screen-reader-only">Social Media Links</h2>
-                <ul class="u-display-flex u-align-items-center" aria-labelledby="social-links">
+                <ul class="u-display-flex u-align-items-center u-list-style-none" aria-labelledby="social-links">
                     <li>
                         <a href="#" title="Twitch">
                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,34 +63,24 @@
                     </li>
                 </ul>
             </div>
-            <div id="nav-menu">
-                <h2 class="screen-reader-only">Navigation menu</h2>
-                <ul class="u-display-flex u-align-items-center" aria-labelledby="nav-menu">
-                    <li>
-                        <a class="nav__link" href="#" title="See All Mixtapes">Mixtapes</a>
-                    </li>
-                    <li>
-                        <a class="nav__link" href="#" title="See All Recent Posts">Recent Posts</a>
-                    </li>
-                    <li>
-                        <a class="nav__link" href="#" title="See All Projects">Projects</a>
-                    </li>
-                </ul>
-            </div>
         </nav>
     </header>
     <main>
         <!-- Intro -->
-        <section class="bio u-background-dark">
+        <section class="bio">
             <img class="bio__image-webtoon" src="images/webtoon.png" alt="Metal & Coffee Webtoon" />
-            <h1>
-                <img src="images/metalheadevlogo.png" alt="The Metalhead Dev Logo" />
-            </h1>
-            <h2>Metal DJ, Web Developer, Twitch Streamer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sapien orci. Nam rhoncus dolor eu rutrum malesuada. Quisque maximus eu nisi eget euismod. </p>
+            <div>
+                <h1 class="bio__logo">
+                    <img src="images/metalheadevlogo.png" alt="The Metalhead Dev Logo" />
+                </h1>
+                <h2>Metal DJ, Web Developer, Twitch Streamer</h2>
+                <p class="bio__tagline">Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing</a> elit. Duis eu sapien orci. Nam rhoncus dolor eu rutrum <a href="#">malesuada</a>. Quisque maximus eu nisi eget euismod. </p>
+            </div>
         </section>
+        <hr>
         <!-- Recent Posts -->
         <section>
+            <h2>Recent Posts</h2>
             <article></article>
             <article></article>
         </section>

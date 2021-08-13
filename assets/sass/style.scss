@@ -5,8 +5,6 @@
 3 - Navigation
 /// END TABLE OF CONTENTS **/
 
-
-@import 'reset';
 @import 'func';
 @import 'mixin';
 @import 'colors';
@@ -18,15 +16,34 @@ html {
     font-size: 100%
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    font-weight: 300;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    
+    @include breakpoint(tablet) {
+        max-width: 850px;
+        margin: 0 auto;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Carrois Gothic SC', sans-serif;
+    margin-top: 0;
     margin-bottom: 1rem;
+    font-weight: 400;
 }
 
 h1 {
@@ -34,6 +51,7 @@ h1 {
 }
 
 h2 {
+    letter-spacing: -0.5px;
     font-size: rem(32px);
     @include breakpoint(tablet) {
         font-size: rem(44px);
@@ -56,10 +74,13 @@ h6 {
     font-size: rem(20px);
 }
 
-a {
+div:not(.social__header) a {
     display: inline-block;
     vertical-align: middle;
     text-decoration: none;
+    color: var(--white);
+    background-image: linear-gradient( 0deg
+,rgba(108, 79, 206,.8) 0,rgba(108, 79, 206,.8) 30%,transparent 40%,transparent);
 }
 
 img {
@@ -77,6 +98,13 @@ svg {
     }
 }
 
+hr {
+    margin: 48px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(249, 239, 239, 0), rgba(249, 239, 239, 0.75), rgba(249, 239, 239, 0));
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-only {
     border: 0;
@@ -92,12 +120,37 @@ svg {
 }
 
 .bio {
-    padding: 20px;
-    color: var(--white);
     text-align: center;
+
+    @include breakpoint(tablet) {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+    }
+
+    h2 {
+        font-size: rem(32px);
+    }
 }
 
 .bio__image-webtoon {
     max-width: rem(250px);
     margin-bottom: rem(16px);
+}
+
+.bio__logo {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    img {
+        width: auto;
+    }
+}
+
+.bio__tagline {
+    font-size: rem(18px);
+    line-height: 1.2;
+
+    @include breakpoint(tablet) {
+        font-size: rem(22px);
+    }
 }
